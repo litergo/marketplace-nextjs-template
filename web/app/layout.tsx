@@ -1,4 +1,3 @@
-import 'nes.css/css/nes.min.css';
 import './global.css';
 import { UiLayout } from '@/components/ui/ui-layout';
 import { ClusterProvider } from '@/components/cluster/cluster-data-access';
@@ -19,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link
-          href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+          href="https://fonts.googleapis.com/css?family=Roboto"
           rel="stylesheet"
         ></link>
       </head>

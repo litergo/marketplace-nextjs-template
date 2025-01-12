@@ -16,7 +16,7 @@ export async function GET(request: Request) {
 
   const url = `https://api.mainnet.tensordev.io/api/v1/mint/collection`;
   const queryParams = new URLSearchParams();
-  queryParams.append('slug', collectionSlug);
+  queryParams.append('collId', collectionSlug);
   queryParams.append('sortBy', 'ListingPriceAsc');
   queryParams.append('limit', limit);
   if (cursor) {
