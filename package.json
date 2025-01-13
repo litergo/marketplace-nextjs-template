@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "nx build web",
-    "dev": "nx serve web"
+    "dev": "nx serve web",
+    "start": "nx serve web --configuration=production"
   },
   "private": true,
   "dependencies": {
